@@ -31,7 +31,14 @@
 // console.log(result);
 
 
-const arr = [1, 2, 3, 4, 5];
-const output = arr.filter((num) => num % 2==0) 
-console.log(arr);
-console.log(output);
+// const arr = [1, 2, 3, 4, 5];
+// const output = arr.filter((num) => num % 2==0) 
+// console.log(arr);
+// console.log(output);
+
+// let numbers = [5, 20, 100, 60, 1];
+// const maxValue = numbers.reduce((max, curr) => {
+//     if(curr > max) max = curr;
+//     return max;
+// });
+// console.log(maxValue)
