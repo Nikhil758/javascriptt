@@ -22,7 +22,8 @@
 // fruits[6] = "Lemon";
 // console.log(fruits)
 
-// const points = new Array(40);  
+// const points = new Array(40); 
+// console.log(points); 
 
 // const fruits = ["Banana", "Orange", "Apple"];
 // console.log(Array.isArray(fruits));
@@ -55,6 +56,6 @@
 // const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 // console.log(fruits.slice(1, 3));
 
-// const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// console.log(fruits.splice(2, 2, "Lemon", "Kiwi"));
-// console.log(fruits);
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.splice(2, 2, "Lemon", "Kiwi"));
+console.log(fruits);
