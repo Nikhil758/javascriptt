@@ -105,8 +105,9 @@
 //     console.log("b", b);
 //     console.log("manyMoreArgs", manyMoreArgs);
 //   }
-  
 //   myFun("one", "two", "three", "four", "five", "six");
+
+//es9
 
 // Array.prototype.flat()
 // const arr1 = [0, 1, 2, [3, 4]];
