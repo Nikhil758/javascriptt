@@ -7,7 +7,7 @@ function search(arr,key){
     return -1;
 }
 let arr=[1,6,7,3,2,5];
-let key=8;
+let key=7;
 if (search(arr,key)===-1){
     console.log("Key not found");
 }
