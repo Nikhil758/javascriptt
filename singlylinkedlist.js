@@ -93,13 +93,13 @@ class LinkedList{
 }
 
 let ll=new LinkedList();
-// ll.insertatFirst(200);
-// ll.insertatFirst(100);
-// ll.insertatFirst(300);
-// ll.insertatFirst(400);
-// ll.insertatLast(400);
-// ll.insertatIndex(500,0);
-// ll.removeatIndex(0);
-// ll.getatIndex(2);
-// ll.clearList();
+ll.insertatFirst(200);
+ll.insertatFirst(100);
+ll.insertatFirst(300);
+ll.insertatFirst(400);
+ll.insertatLast(400);
+ll.insertatIndex(500,2);
+ll.removeatIndex(0);
+ll.getatIndex(2);
+ll.clearList();
 ll.printList();

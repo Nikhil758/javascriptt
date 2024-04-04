@@ -85,12 +85,12 @@ class Node {
   }
   
   const list = new CircularLinkedList();
-//   list.insertAtBeginning(10);
-//   list.insertAtBeginning(20);
-//   list.insertAtBeginning(30);
-//   list.insertAtEnd(40);
-//   list.insertAtEnd(50);  
-//   list.deleteAtBeginning();
-//   list.deleteAtEnd();
+  list.insertAtBeginning(10);
+  list.insertAtBeginning(20);
+  list.insertAtBeginning(30);
+  list.insertAtEnd(40);
+  list.insertAtEnd(50);  
+  list.deleteAtBeginning();
+  list.deleteAtEnd();
   list.print();
   
