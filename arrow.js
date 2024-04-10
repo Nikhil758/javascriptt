@@ -34,7 +34,7 @@
 //    };
 //    me.thisInArrow(); 
 //    me.thisInRegular();
-
+// 
 //newkeyword
 //let add = (x, y) => console.log(x + y);
 
