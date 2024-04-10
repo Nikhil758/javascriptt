@@ -1,8 +1,6 @@
-let s="HelLoWorLD"
-let count=0
-for (let i=0;i<s.length;i++){
-    if (s[i].isUpper()){
-        count++;
-    }
-}
-console.log(count);
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World!');
+}).listen(8080);
