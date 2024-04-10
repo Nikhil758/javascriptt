@@ -1,3 +1,5 @@
+//palindrome
+
 function palindrome(data){
     let length=data.length;
     for (ch of data){
