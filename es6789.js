@@ -58,7 +58,7 @@
 //index operator**
 // console.log(2**10);
 
-//es8
+//es8//
 
 //async...await
 
