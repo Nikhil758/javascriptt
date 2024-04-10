@@ -1,3 +1,5 @@
+//DoublyLinkedList
+
 class Node {
     	constructor(val) {
 		this.data = val;
