@@ -1,3 +1,5 @@
+//Graphs
+
 class Graph {
     constructor() {
       this.data = {};
