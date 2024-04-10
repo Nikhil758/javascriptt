@@ -12,10 +12,10 @@
 // main();
 
 
-async function myFunction() {
-    console.log( "Hello" );
-  }
-myFunction();
+// async function myFunction() {
+//     console.log( "Hello" );
+//   }
+// myFunction();
 
 
 //Waiting for a Timeout
