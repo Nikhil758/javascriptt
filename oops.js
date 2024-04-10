@@ -35,6 +35,29 @@
 // console.log(person1.getDetails_noaccess);
 // console.log(person1.getDetails_access());
 
+// function Shape() {
+//     if (this.constructor === Shape) {
+//         console.error("Cannot instantiate abstract class Shape");
+//     }
+//     this.draw = function() {
+//         console.error("Cannot call abstract method draw from Shape");
+//     }
+// }
+// function Circle() {
+//     Shape.call(this);
+//     this.draw = function() {
+//         console.log("Drawing a Circle");
+//     }
+// }
+// Circle.prototype = Object.create(Shape.prototype);
+// Circle.prototype.constructor = Circle;
+
+// let circle = new Circle();
+// circle.draw();
+// let shape = new Shape();
+// shape.draw();
+
+
 // Inheritance
 
 // class person {
@@ -85,15 +108,15 @@
 
 // Method Overloading
 
-// function add(a, b) {
-//     if (typeof a === "number" && typeof b === "number") {
-//       return a + b;
-//     } else if (typeof a === "string" && typeof b === "string") {
-//       return a + b;
-//     } else {
-//       return "Invalid arguments";
-//     }
-//   }
-//   console.log(add(2,3));
-//   console.log(add('2','3'));
-//   console.log(add(true));
+function add(a, b) {
+    if (typeof a === "number" && typeof b === "number") {
+      return a + b;
+    } else if (typeof a === "string" && typeof b === "string") {
+      return a + b;
+    } else {
+      return "Invalid arguments";
+    }
+  }
+  console.log(add(2,3));
+  console.log(add('2','3'));
+  console.log(add(true));
