@@ -20,6 +20,7 @@
 //   }
 //   myCalculator(5, 6, myDisplayer);
 
+//
 
 // const myNumbers = [4, 1, -20, -7, 5, 9, -6];
 // const posNumbers = removeNeg(myNumbers, (x) => x >= 0);
